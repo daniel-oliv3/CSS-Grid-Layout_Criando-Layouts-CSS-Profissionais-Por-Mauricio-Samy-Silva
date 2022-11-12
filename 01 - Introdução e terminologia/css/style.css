@@ -1,3 +1,38 @@
+/*CSS Padrão*/
+html {
+	font-size: 10px;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font: 2rem sans-serif;
+	background: white;
+	color: #333;
+	margin: 40px;
+	}
+.box {
+	color: white;
+	border: 4px solid #333;
+	font-size: 2.6rem;
+	padding: 10px; 
+	 }
+.box1 {background: #8cd9ad;}
+.box2 {background: #e37e35;}
+.box3 {background: #8b008b;}
+.box4 {background: #ab2121;}
+.box5 {background: #0000b3;}
+.box6 {background: #999;}
+.box7 {background: #8b4513;}
+.box8 {background: #ccc;}
+.box9 {background: #80dd80;}
+
+
+
+
+
+/* Grid Layout */
 .box { 
     background: #ccc; 
     border-color: #999; 
