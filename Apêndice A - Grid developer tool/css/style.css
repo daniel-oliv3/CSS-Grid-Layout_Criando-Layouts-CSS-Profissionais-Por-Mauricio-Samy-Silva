@@ -1,21 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
-
-
-* { 
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
+/* ======= CSS Padrão ======= */
+html {
+	font-size: 10px;
+	box-sizing: border-box;
 }
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font: 2rem sans-serif;
+	background: white;
+	color: #333;
+	margin: 40px;
+	}
+.container > * {
+	padding: 10px;
+	font: 20px sans-serif;
+	color: white;
+}
+.topo, .rodape {background: #0000b3;}
+.menu {background: #e37e35;}
+.principal {background: #ab2121;}
+.primaria {background: #8cd9ad;}
+.secundaria {background: #ea9a62;}
 
 
-
-
-
+/* ======= Grid Layout ======= */
 
 
 
