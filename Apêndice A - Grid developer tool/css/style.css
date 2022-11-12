@@ -1,30 +1,33 @@
 /* ======= CSS Padrão ======= */
-html {
-	font-size: 10px;
-	box-sizing: border-box;
-}
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-body {
-	font: 2rem sans-serif;
-	background: white;
-	color: #333;
-	margin: 40px;
-	}
-.container > * {
-	padding: 10px;
-	font: 20px sans-serif;
-	color: white;
-}
-.topo, .rodape {background: #0000b3;}
-.menu {background: #e37e35;}
-.principal {background: #ab2121;}
-.primaria {background: #8cd9ad;}
-.secundaria {background: #ea9a62;}
-
-
 /* ======= Grid Layout ======= */
+body { margin: 50px; }
+/* Descomente para visualizar as áreas do layout
+.container > * {
+	background: #4aa1c9;
+	border-radius: 6px;
+	color: #fff;
+	padding: 20px;
+}
+*/
+
+.container {
+	display: grid;
+	grid-template: 
+		"header  header  header"
+		"nav       main     aside"
+		"footer   footer    footer" / 150px 300px 150px;
+	grid-template-rows: 60px 350px 50px;
+	
+	grid-gap: 10px 20px;
+}
+header { grid-area: header;}
+main { grid-area: main;}
+nav { grid-area: nav;}
+aside { grid-area: aside;}
+footer { grid-area: footer;}
+
+
+
 
 
 
